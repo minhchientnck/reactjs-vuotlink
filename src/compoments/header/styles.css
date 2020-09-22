@@ -1,0 +1,27 @@
+/* .navbar-inverse .navbar-nav .nav-link {
+  color: #1c1515;
+  font-weight: 600;
+} */
+
+/* @media (max-width: 768px) {
+  .navbar-inverse .navbar-nav .nav-link, .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+} */
+
+/* .navbar-inverse .navbar-nav .nav-link:focus, 
+.navbar-inverse .navbar-nav .nav-link:hover {
+  color: #8f8d8d;
+}
+
+.logo a {
+  font-size: 50px;
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .logo {
+    margin-left: 15px;
+  }
+} */

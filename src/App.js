@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  Switch, Route,
+} from "react-router-dom";
+import $ from 'jquery';
+import './css/animate.css';
+import './css/bootstrap.css';
+import './css/colors.css';
+import './css/ekko-lightbox.css';
+import './css/font-awesome.min.css';
+import './css/responsive.css';
 import './App.css';
+import Components from './compoments';
 
 function App() {
+  const _compoments = Object.entries(Components).map(compoment => {
+    const View = compoment[1].view;
+    const path = compoment[1].path;
+    return <Route exact path={path} render={rest => <View {...rest} />} />
+  });
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+    {_compoments}
+    </Switch>
   );
 }
 
