@@ -4,6 +4,7 @@ import sliderImg from '../../images/slider_img.png';
 import abImg from '../../images/ab_img.png';
 import cour1 from '../../images/cour1.png';
 import cour2 from '../../images/cour2.png';
+import cour3 from '../../images/cour3.png';
 import testimon from '../../images/testimon.png';
 
 class HomePage extends Component {
@@ -79,7 +80,7 @@ class HomePage extends Component {
 
               <div className="col-md-4 text_align_center">
                  <div className="cours">
-                   <img className="img-responsive" src="images/cour3.png" alt="#" />
+                   <img className="img-responsive" src={cour3} alt="#" />
                  </div>
                  <h3>Javascript</h3>
                  <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re</p>

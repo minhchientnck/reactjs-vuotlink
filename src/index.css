@@ -722,7 +722,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .cours_timging_bg {
-    /* background: url("images/cours_bg.jpg"); */
+    background: url("images/cours_bg.jpg");
     min-height: 780px;
     width: 100%;
     margin-top: 50px;
@@ -771,13 +771,13 @@ form#commant_form div.field textarea.custom_field {
 }
 
 body#inner_page header.header {
-    /* background-image: url('images/slider_img.png'); */
+    background-image: url('images/slider_img.png');
     background-size: 100% auto;
     position: relative;
 }
 
 .blue_pattern_bg {
-    /* background-image: url('images/blue_bg.png'); */
+    background-image: url('images/blue_bg.png');
     background-attachment: fixed;
     background-position: center center;
     min-height: 300px;
@@ -1152,7 +1152,7 @@ a {
 }
 
 .about_dottat {
-    /* background: url('images/dottet_bg.png'); */
+    background: url('images/dottet_bg.png');
     background-size: cover;
     background-position: center bottom;
 }
